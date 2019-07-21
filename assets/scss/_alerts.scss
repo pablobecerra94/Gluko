@@ -1,0 +1,24 @@
+$color_seashell_approx: rgb(240, 241, 242);
+$color_mountain_mist_30_approx: rgba(149, 149, 149, 0.3);
+$color_mountain_mist_approx: rgb(149, 149, 149);
+$color_mine_shaft_approx: rgb(51, 51, 51);
+.alert-minimalist {
+    background-color: $color_seashell_approx;
+    border-color: $color_mountain_mist_30_approx;
+    border-radius: 3px;
+    color: $color_mountain_mist_approx;
+    padding: 10px;
+    font-size: 16px;
+    >[data-notify="icon"] {
+        margin-right: 10px;
+    }
+    >[data-notify="title"] {
+        color: $color_mine_shaft_approx;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    >[data-notify="message"] {
+        display: block;
+        font-size: 80%;
+    }
+}
